@@ -1,0 +1,4 @@
+7, 5, 1, 8, 3, 6, 0, 9, 4, 2 ilk olarak rootumuzu belirleyelim. burada rootumuzu 5 olarak beklersek 5 in sagında 5'ten büyük olanlar solunda ise 5'ten küçük olanlar şeklinde hareket edelim.
+0<-2<-3<-1<-4 <-  5   ->6->9->8->7 şeklinde düşünücek olursak binary agacımızı sag tarafında 5 ten büyükler oldugu için 5'ten büyük bir sayı arama yaptıgımızda veya büyük bir sayı eklemek 
+istediğimizde 5'in sag tarafını baz alarak hareket edeceğiz.Aynı durum 5'ten küçük olması içinde geçerlidir.
+Worst case'de n kadar gitmemiz olacaktır.Fakat average olarak O(logn) düşünebiliriz.
